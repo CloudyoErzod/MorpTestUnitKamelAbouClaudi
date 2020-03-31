@@ -36,14 +36,14 @@ public class PionTest {
     }
 
     @Test
-    public void verifDesPionSiAligne(){// puis je mettre un pion ,oui a l emplacement choisi
+    public void verifDesPionSiAligne(){//
         Pion pion = new Pion();
         boolean gagnantOupas = true;
         assertTrue(pion.pionAligne(true));
 
     }
     @Test
-    public void verifDesPionSiPasAligne(){// puis je mettre un pion ,oui a l emplacement choisi
+    public void verifDesPionSiPasAligne(){//
         Pion pion = new Pion();
         boolean gagnantOupas = true;
         assertNotEquals(false, pion.pionAligne(true));
