@@ -9,7 +9,7 @@ public class PionTest {
     public void joueur1(){// a qui de jouer, c est a moi
         Pion pion= new Pion();
         boolean CmonTour = true;
-       assertEquals(true, pion.sonTour(true));
+        assertTrue(pion.sonTour(true));
     }
 
 
@@ -24,7 +24,7 @@ public class PionTest {
     public void peutMettreUnPion(){// puis je mettre un pion ,oui a l emplacement choisi
         Pion pion = new Pion();
         boolean possibleAjoutPion = true;
-        assertEquals(true, pion.ajoutPion(true));
+        assertTrue(pion.ajoutPion(true));
 
     }
     @Test
@@ -39,7 +39,7 @@ public class PionTest {
     public void verifDesPionSiAligne(){// puis je mettre un pion ,oui a l emplacement choisi
         Pion pion = new Pion();
         boolean gagnantOupas = true;
-        assertEquals(true, pion.pionAligne(true));
+        assertTrue(pion.pionAligne(true));
 
     }
     @Test
