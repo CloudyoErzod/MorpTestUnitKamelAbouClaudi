@@ -9,7 +9,7 @@ public class PionTest {
     public void joueur1(){// a qui de jouer, c est a moi
         Pion pion= new Pion();
         boolean CmonTour = true;
-        assertTrue(pion.sonTour(true));
+        assertTrue(pion.croixOuRond(true));
     }
 
 
@@ -17,21 +17,21 @@ public class PionTest {
     public void joueur2(){// a qui de jouer, c est a moi
         Pion pion= new Pion();
         boolean CmonTour = true;
-        assertNotEquals(false, pion.sonTour(true));
+        assertNotEquals(false, pion.croixOuRond(true));
     }
 
     @Test
     public void peutMettreUnPion(){// puis je mettre un pion ,oui a l emplacement choisi
         Pion pion = new Pion();
         boolean possibleAjoutPion = true;
-        assertTrue(pion.ajoutPion(true));
+        assertTrue(pion.possibleAjoutPion(true));
 
     }
     @Test
     public void nePeutPasMettreUnPion(){// puis je mettre un pion ,non a l emplacement choisi
         Pion pion = new Pion();
         boolean possibleAjoutPion = true;
-        assertNotEquals(false, pion.ajoutPion(true));
+        assertNotEquals(false, pion.possibleAjoutPion(true));
 
     }
 
@@ -39,14 +39,14 @@ public class PionTest {
     public void verifDesPionSiAligne(){//
         Pion pion = new Pion();
         boolean gagnantOupas = true;
-        assertTrue(pion.pionAligne(true));
+        assertTrue(pion.pionAlinge(true));
 
     }
     @Test
     public void verifDesPionSiPasAligne(){//
         Pion pion = new Pion();
         boolean gagnantOupas = true;
-        assertNotEquals(false, pion.pionAligne(true));
+        assertNotEquals(false, pion.pionAlinge(true));
 
     }
 

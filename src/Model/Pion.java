@@ -3,15 +3,15 @@ package Model;
 public class Pion {
 
 
-    public boolean sonTour( boolean cmonTourOuPas ) {
-        return cmonTourOuPas;
+    public boolean croixOuRond( boolean croixOuRond ) {
+        return croixOuRond;
     }
 
-    public boolean ajoutPion( boolean possibleAjoutPion ) {
+    public boolean possibleAjoutPion( boolean possibleAjoutPion ) {
         return possibleAjoutPion;
     }
 
-    public boolean pionAligne( boolean gagnantOupas ) {
-        return gagnantOupas ;
+    public boolean pionAlinge( boolean pionAligne ) {
+        return pionAligne ;
     }
 }
