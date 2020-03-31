@@ -1,5 +1,4 @@
-import modele.Joueur;
-import org.junit.jupiter.api.DynamicTest;
+package Model;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
