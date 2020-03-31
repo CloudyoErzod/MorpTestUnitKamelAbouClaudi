@@ -1,4 +1,4 @@
-package modele;
+package Model;
 
 public class Pion {
 }
