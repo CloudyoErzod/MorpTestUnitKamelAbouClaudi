@@ -8,7 +8,10 @@ public class Joueur {
     public boolean aGagne(boolean bGagne) {
         return false;
     }
-    public boolean aQuiLetour() {
+    public boolean tour() {
         return false;
+    }
+    public int position() {
+        
     }
 }

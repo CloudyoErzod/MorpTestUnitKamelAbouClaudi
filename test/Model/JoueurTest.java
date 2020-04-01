@@ -7,14 +7,14 @@ public class JoueurTest {
     public void aGange() {
         Joueur monJoueur = new Joueur();
         //boolean gagne;
-        assertFalse(monJoueur.aGagne(true));
+        assertFalse(monJoueur.aGagne(false));
     }
 
     @Test
     public void aPerdu() {
         Joueur monJoueur = new Joueur();
         //boolean perd;
-        assertFalse(monJoueur.aPerdu(true));
+        assertFalse(monJoueur.aPerdu(false));
     }
 
     @Test
