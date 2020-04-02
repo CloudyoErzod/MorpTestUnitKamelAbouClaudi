@@ -3,10 +3,9 @@ package Model;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
 public class PionTest {
     @Test
-    public void joueur1(){// a qui de jouer, c est a moi
+    public void croix(){// a qui de jouer, c est a moi
         Pion pion= new Pion();
         boolean CmonTour = true;
         assertTrue(pion.croixOuRond(true));
@@ -14,7 +13,7 @@ public class PionTest {
 
 
     @Test
-    public void joueur2(){// a qui de jouer, c est a moi
+    public void rond(){// a qui de jouer, c est a moi
         Pion pion= new Pion();
         boolean CmonTour = true;
         assertNotEquals(false, pion.croixOuRond(true));
