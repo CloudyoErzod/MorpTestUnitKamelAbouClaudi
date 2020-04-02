@@ -15,9 +15,9 @@ public class Partie {
             System.out.println(plateau);
             System.out.println("Choisissez une case.");
             System.out.println("Ligne (de 1 ŕ "+plateau.taillePlateau+") :");
-            row = Lire.Entier() - 1;
+            row = 0;
             System.out.println("Colonne (de 1 ŕ "+plateau.taillePlateau+") :");
-            col = Lire.Entier() - 1;
+            col = 0;
             if (plateau.jouer(row, col)) {
                 if (plateau.victoire('X')) {
                     joueurGagne = true;
@@ -37,6 +37,9 @@ public class Partie {
             }
         } while (joueurGagne == false  && egalite == false);
     }
+
+
+
 
 
 }

@@ -3,8 +3,8 @@ package Model;
 import MyExeptions.LaCasePasVideExecption;
 
 public class Pion {
-public static final  int croix = 0;
-public static final int  rond = 0;
+public static final  char croix = 'X';
+public static final char  rond = 'O';
 
     public Pion() {
     }

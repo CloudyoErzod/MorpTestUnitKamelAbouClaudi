@@ -4,6 +4,9 @@ import MyExeptions.MonTourExeption;
 
 public class Joueur {
 
+    public static char Joueur1 ;
+    public static char Joueur2 ;
+
     public static boolean Joueur = false;
 
     /**
