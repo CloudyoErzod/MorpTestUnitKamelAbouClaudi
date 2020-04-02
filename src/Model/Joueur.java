@@ -2,15 +2,15 @@ package Model;
 
 public class Joueur {
     public boolean aPerdu(boolean bPerdu) {
-        return false;
+        return bPerdu;
     }
 
     public boolean aGagne(boolean bGagne) {
-        return false;
+        return bGagne;
     }
 
     public boolean tour(boolean bTour) {
-        return false;
+        return bTour;
     }
 
     public int position(int y, int x) {
