@@ -9,18 +9,14 @@ public class PionTest {
     @Test
     public void rond(){// a qui de jouer, c est a moi
         Pion pion= new Pion();
-
         assertTrue(pion.croixOuRond(true));
 
     }
 
-
     @Test
     public void croix(){// a qui de jouer, c est a moi
         Pion pion= new Pion();
-
         assertFalse(pion.croixOuRond(false));
-
     }
 
 
@@ -28,15 +24,11 @@ public class PionTest {
     public void peutMettreUnPion(){// puis je mettre un pion ,oui a l emplacement choisi
         Pion pion = new Pion();
         assertTrue(pion.possibleAjoutPion(true));
-
-
     }
     @Test
     public void nePeutPasMettreUnPion(){// puis je mettre un pion ,non a l emplacement choisi
         Pion pion = new Pion();
         assertFalse(pion.possibleAjoutPion(false));
-
-
     }
 
     @Test
@@ -53,7 +45,6 @@ public class PionTest {
 
 
     }
-
 
 
 }
