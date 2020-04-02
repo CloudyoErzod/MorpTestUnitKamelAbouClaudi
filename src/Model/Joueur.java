@@ -9,7 +9,7 @@ public class Joueur {
         return false;
     }
 
-    public boolean tour() {
+    public boolean tour(boolean bTour) {
         return false;
     }
 

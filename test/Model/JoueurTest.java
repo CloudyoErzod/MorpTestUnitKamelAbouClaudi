@@ -20,6 +20,7 @@ public class JoueurTest {
     @Test
     public void tour(){
         Joueur monJoueur = new Joueur();
+        assertFalse(monJoueur.tour(false));
     }
 
     @Test
