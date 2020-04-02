@@ -28,9 +28,9 @@ public class Joueur {
      * Le joueur se positionnne sur la grille
      *
      */
-    public int sePositionne (int y, int x) {
-        return y + x;
-    }
+//    public int sePositionne (int y, int x) {
+//        return y + x;
+//    }
 
 
     /**

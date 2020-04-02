@@ -1,5 +1,7 @@
 package Model;
 
+import MyExeptions.Exep;
+
 public class Plateau {
 
     public static int taillePlateau;
@@ -158,16 +160,19 @@ public class Plateau {
 
 
 
-    public boolean TestCaseLigne(int x, int y) {
-        return false;
+
+    public boolean TestCaseLigne(int x, int y){
+
+        return true;
+
     }
 
     public boolean TestCaseCol(int x, int y) {
-        return false;
+        return true;
     }
 
     public boolean TestCaseDiagonal(int x, int y) {
-        return false;
+        return true;
     }
 
 }

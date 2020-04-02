@@ -14,9 +14,9 @@ public class Partie {
         do {
             System.out.println(plateau);
             System.out.println("Choisissez une case.");
-            System.out.println("Ligne (de 1 ŕ "+plateau.taillePlateau+") :");
+            System.out.println("Ligne (de 1  "+plateau.taillePlateau+") :");
             row = 0;
-            System.out.println("Colonne (de 1 ŕ "+plateau.taillePlateau+") :");
+            System.out.println("Colonne (de 1  "+plateau.taillePlateau+") :");
             col = 0;
             if (plateau.jouer(row, col)) {
                 if (plateau.victoire('X')) {

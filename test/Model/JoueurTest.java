@@ -15,12 +15,12 @@ public class JoueurTest {
         }
     }
 
-    @Test
-    public void sePositionneTest() {
-        Joueur monJoueur = new Joueur();
-        int y = 1, x = 2;
-        assertEquals(2, monJoueur.sePositionne(y,x));
-    }
+//    @Test
+//    public void sePositionneTest() {
+//        Joueur monJoueur = new Joueur();
+//        int y = 1, x = 2;
+//        assertEquals(2, monJoueur.sePositionne(y,x));
+//    }
 
     @Test
     public void positionTest(){
