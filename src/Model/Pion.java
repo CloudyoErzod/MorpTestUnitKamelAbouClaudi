@@ -14,4 +14,6 @@ public class Pion {
     public boolean pionAlinge( boolean pionAligne ) {
         return pionAligne ;
     }
+
+
 }
