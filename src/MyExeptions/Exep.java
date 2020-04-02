@@ -1,4 +1,5 @@
 package MyExeptions;
 
-public class Exep {
+public class Exep extends Exception {
 }
+

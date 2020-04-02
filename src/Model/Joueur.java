@@ -1,5 +1,7 @@
 package Model;
 
+import MyExeptions.MonTourExeption;
+
 public class Joueur {
     /**
      *
@@ -25,7 +27,10 @@ public class Joueur {
      * aux class Pion et Plateau
      *
      */
-    public boolean tour(boolean bTour) {
+    public boolean tour(boolean bTour) throws MonTourExeption {
+        if (bTour = false) {
+            throw new MonTourExeption("Ce n'est pas votre tour de jouer !");
+        }
         return bTour;
     }
     /**

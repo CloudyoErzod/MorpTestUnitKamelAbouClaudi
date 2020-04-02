@@ -1,7 +1,7 @@
 package Model;
+import MyExeptions.MonTourExeption;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
 public class JoueurTest {
     @Test
     public void aGagne() {
@@ -20,7 +20,11 @@ public class JoueurTest {
     @Test
     public void tour(){
         Joueur monJoueur = new Joueur();
-        assertFalse(monJoueur.tour(false));
+        try {
+            assertFalse(monJoueur.tour(false));
+        } catch (MonTourExeption monTourExeption) {
+            monTourExeption.printStackTrace();
+        }
     }
 
     @Test
