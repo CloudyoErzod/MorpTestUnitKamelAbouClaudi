@@ -1,6 +1,7 @@
 package Model;
 
 
+import MyExeptions.LaCasePasVideExecption;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -21,14 +22,20 @@ public class PionTest {
 
 
     @Test
-    public void peutMettreUnPion(){// puis je mettre un pion ,oui a l emplacement choisi
+    // puis je mettre un pion ,oui a l emplacement choisi
+    public void peutMettreUnPion() throws LaCasePasVideExecption {
         Pion pion = new Pion();
         assertTrue(pion.possibleAjoutPion(true));
     }
     @Test
-    public void nePeutPasMettreUnPion(){// puis je mettre un pion ,non a l emplacement choisi
+    // puis je mettre un pion ,non a l emplacement choisi
+    public void nePeutPasMettreUnPion(){
         Pion pion = new Pion();
-        assertFalse(pion.possibleAjoutPion(false));
+        try {
+            assertFalse(pion.possibleAjoutPion(false));
+        }catch (LaCasePasVideExecption laCaseNestPasVide) {
+            laCaseNestPasVide.printStackTrace();
+        }
     }
 
     @Test
