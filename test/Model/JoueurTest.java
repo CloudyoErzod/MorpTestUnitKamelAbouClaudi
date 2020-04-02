@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class JoueurTest {
     @Test
-    public void aGange() {
+    public void aGagne() {
         Joueur monJoueur = new Joueur();
         //boolean gagne;
         assertFalse(monJoueur.aGagne(false));
@@ -25,5 +25,7 @@ public class JoueurTest {
     @Test
     public void position(){
         Joueur monJoueur = new Joueur();
+        int y = 1, x = 1;
+        assertEquals( 2, monJoueur.position(y,x));
     }
 }
