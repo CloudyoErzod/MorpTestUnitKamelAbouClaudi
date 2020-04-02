@@ -5,6 +5,14 @@ import MyExeptions.MonTourExeption;
 public class Joueur {
     /**
      *
+     * Le joueur ce positionnne sur la grille
+     *
+     */
+    public int sePositionne (int y, int x) {
+        return y + x;
+    }
+    /**
+     *
      * il faut verifier si la colone, ligne ou diagonal sont
      * rempli pour le joueur
      *
