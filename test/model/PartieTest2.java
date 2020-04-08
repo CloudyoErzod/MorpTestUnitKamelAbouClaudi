@@ -21,7 +21,7 @@ public class PartieTest2 {
 
     @Test
     void testJoueur1Gagne() throws FileNotFoundException {
-        File test = new File("src/test/resources/jouer1Gagne.txt");
+        File test = new File("test/resources/jouer1Gagne.txt");
         scanner = new Scanner(test);
         partie.scanner = scanner;
         partie.jouer();
@@ -33,7 +33,7 @@ public class PartieTest2 {
 
     @Test
     void testMatchNull() throws FileNotFoundException {
-        File test = new File("src/test/resources/matchNull.txt");
+        File test = new File("test/resources/matchNull.txt");
         scanner = new Scanner(test);
         partie.scanner = scanner;
         partie.jouer();
