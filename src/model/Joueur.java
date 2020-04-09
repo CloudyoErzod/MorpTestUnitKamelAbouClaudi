@@ -1,8 +1,8 @@
 package model;
 
 
-import exceptions.IllegalDeplacementException;
-import exceptions.IllegalPositionException;
+import exeptions.IllegalDeplacementException;
+import exeptions.IllegalPositionException;
 
 /**
  * Classe representant un joueur dans le jeu Morpion

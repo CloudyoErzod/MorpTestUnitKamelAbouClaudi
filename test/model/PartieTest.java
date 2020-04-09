@@ -1,7 +1,7 @@
 package model;
 
-import exceptions.IllegalDeplacementException;
-import exceptions.IllegalPositionException;
+import exeptions.IllegalDeplacementException;
+import exeptions.IllegalPositionException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

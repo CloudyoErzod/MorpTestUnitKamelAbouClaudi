@@ -1,4 +1,4 @@
-package exceptions;
+package exeptions;
 
 /**
  * Exception survenant lorsqu'un pion veut

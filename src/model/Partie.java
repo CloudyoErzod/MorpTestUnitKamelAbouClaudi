@@ -1,7 +1,7 @@
 package model;
 
-import exceptions.IllegalDeplacementException;
-import exceptions.IllegalPositionException;
+import exeptions.IllegalDeplacementException;
+import exeptions.IllegalPositionException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
